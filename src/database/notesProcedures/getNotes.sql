@@ -1,0 +1,5 @@
+CREATE OR ALTER PROCEDURE getNotes
+AS
+BEGIN
+    SELECT * FROM notes;
+END;

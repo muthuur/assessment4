@@ -41,7 +41,7 @@ export class Notes implements NotesService {
         };
       } else {
         return {
-          message: "Note retrieved successfully",
+          note: result,
         };
       }
     } catch {

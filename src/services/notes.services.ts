@@ -65,7 +65,7 @@ export class Notes implements NotesService {
       ).rowsAffected;
       if (results[0] > 0) {
         return {
-          error: "Project created successfully",
+          message: "Project created successfully",
         };
       } else {
         return {
